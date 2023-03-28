@@ -10,7 +10,7 @@ working in the C language. I update this repo with my learning progresses with h
 * [0x02. C - Functions, nested loops](./0x02-functions_nested_loops)
 * [0x03. C - debugging](./0x03-debugging)
 * [0x04. C - More functions, more nested loops](./0x04-more_functions_nested_loops)
-
+* [0x05. C - Pointers, arrays and strings](./0x05-pointers_arrays_strings)
 
 - more projects are coming soon!!
 - I am on my way to be the best software engineer that I  can possibly  be!!
