@@ -1,7 +1,6 @@
 #include "lists.h"
 
 /**
- * copyright© EL HADDOUMI
  * add_nodeint_end - Adds a new node at the
  *                   end of a listint_t list.
  * @head: A pointer to the address of the

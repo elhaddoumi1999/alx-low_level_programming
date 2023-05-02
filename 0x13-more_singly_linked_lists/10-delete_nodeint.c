@@ -1,7 +1,6 @@
 #include "lists.h"
 
 /**
- * copyright© EL HADDOUMI
  * delete_nodeint_at_index - Deletes the node at a given
  *                           index of a listint_t list.
  * @head: A pointer to the address of the
