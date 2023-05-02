@@ -2,7 +2,6 @@
 #define LISTS_H
 
 /*
- * copyright© EL HADDOUMI
  * Desc: Header file containing prototypes and definitions for all functions
  *       and types written in the 0x12-more_singly_linked_lists directory.
  */
@@ -38,6 +37,5 @@ listint_t *reverse_listint(listint_t **head);
 size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
-int _putchar(char c);
 
-#endif /*LISTS_H*/
+#endif /* LISTS_H */
