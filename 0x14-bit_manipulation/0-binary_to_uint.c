@@ -1,26 +1,46 @@
 #include "main.h"
-
 /**
- * binary_to_uint - Converts a binary number to an unsigned int.
- * @b: A pointer to a string of 0 and 1 chars.
- *
- * Return: If b is NULL or contains chars not 0 or 1 - 0.
- *         Otherwise - the converted number.
+ * _power - calculate (base and power)
+ * @base: base of the exponet
+ * @pow: power of the exponet
+ * Return: value of base and power
  */
-unsigned int binary_to_uint(const char *b)
+unsigned long int _power(unsigned int base, unsigned int pow)
 {
-	unsigned int num = 0;
-	int len = 0;
+	unsigned long int num;
+	unsigned int i;
 
-	if (b[len] == '\0')
-		return (0);
-
-	while ((b[len] == '0') || (b[len] == '1'))
-	{
-		num <<= 1;
-		num += b[len] - '0';
-		len++;
-	}
-
+	num = 1;
+	for (i = 1; i <= pow; i++)
+		num *= base;
 	return (num);
+}
+/**
+ * print_binary - prints the binary representation of a number
+ * @n: num of prented
+ * Return: void
+ */
+void print_binary(unsigned long int n)
+{
+	unsigned long int dev, result;
+	char flag;
+
+	flag = 0;
+	dev = _power(2, sizeof(unsigned long int) * 8 - 1);
+
+	while (dev != 0)
+	{
+		result = n & dev;
+		if (result == dev)
+		{
+			flag = 1;
+			_putchar('1');
+
+		}
+		else if (flag == 1 || dev == 1)
+		{
+			_putchar('0');
+		}
+		dev >>= 1;
+	}
 }
