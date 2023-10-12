@@ -24,9 +24,11 @@ working in the C language. I update this repo with my learning progresses with h
 * [0x10. C - Variadic functions](./0x10-variadic_functions)
 * [0x11. C - printf](https://github.com/Sammy-OD/printf)
 * [0x12. C - Singly linked lists](./0x12-singly_linked_lists)
-* [0x13-more_singly_linked_lists](./0x13-more_singly_linked_lists)
-* [0x14-bit_manipulation](./0x14-bit_manipulation)
-* [0x15-file_io](./0x15-file_io)
+* [0x13. C - more_singly_linked_lists](./0x13-more_singly_linked_lists)
+* [0x14. C - bit_manipulation](./0x14-bit_manipulation)
+* [0x15. C - file_io](./0x15-file_io)
+* [0x17. C - doubly_linked_lists](./0x17-doubly_linked_lists)
+
 
 - more projects are coming soon!!
 - I am on my way to be the best software engineer that I  can possibly  be!!
