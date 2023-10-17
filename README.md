@@ -28,6 +28,9 @@ working in the C language. I update this repo with my learning progresses with h
 * [0x14. C - bit_manipulation](./0x14-bit_manipulation)
 * [0x15. C - file_io](./0x15-file_io)
 * [0x17. C - doubly_linked_lists](./0x17-doubly_linked_lists)
+* [0x18. C - Dynamic_libraries](./0x18-dynamic_libraries)
+
+
 
 
 - more projects are coming soon!!
