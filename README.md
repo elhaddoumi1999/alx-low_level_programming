@@ -29,6 +29,8 @@ working in the C language. I update this repo with my learning progresses with h
 * [0x15. C - file_io](./0x15-file_io)
 * [0x17. C - doubly_linked_lists](./0x17-doubly_linked_lists)
 * [0x18. C - Dynamic_libraries](./0x18-dynamic_libraries)
+* [0x1A. C - Hash tables](./0x1A-hash_tables)
+
 
 
 
